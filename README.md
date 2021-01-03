@@ -4,4 +4,5 @@ A Collateralized Mortgage Obligation (CMO) is a Structured Product that consists
 
 This example assumes there are no defaults from the mortage holders and no early prepayments although these features may be added in a future version.  Typically, these are absorbed in reverse, starting with the Junior tranche to protect the more senior tranches and the price the Junior tranche trades at relative to the other tranches, reflects this additional risk.
 
+
 ![](Figure_1.png)
