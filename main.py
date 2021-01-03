@@ -77,7 +77,8 @@ def CollateralisedMortgageObligationWaterfall(cmo):
     dfCashflows.plot.area(x = 'Month', y = ['Senior_principal','Mezzanine_principal',
         'Junior_principal','Senior_interest','Mezzanine_interest','Junior_interest'], 
         color = ['navy','royalblue','slategrey','steelblue','cornflowerblue','aqua'])
-    plt.title('CMO Cashflows by Tranche Type')
+    plt.suptitle('CMO Cashflows by Tranche Type \n Size ' + str(sum(principal)/1000000) + 
+        'mm, ' + str(paymentYears) + ' years, Interest Rate ' + str(interestRate))
     plt.show()
 
     print(dfCashflows[['Senior_principal','Mezzanine_principal',
