@@ -5,3 +5,7 @@ This example assumes there are no defaults from the mortage holders and no early
 
 
 ![](Figure_1.png)
+
+The chart below shows the equivilent chart produced in R from the mainR.R file.
+
+![](Rplot.png)
